@@ -8,3 +8,6 @@ books = {
     "Harry": 543,
     "FWings": 322
 }
+
+print(fname)
+print(f'My name is {fname} {lname} and I am {age} years old!')
