@@ -11,3 +11,13 @@ books = {
 
 print(fname)
 print(f'My name is {fname} {lname} and I am {age} years old!')
+
+
+age = 22
+print(age)
+
+Fnames = ["adam", "jongnogivhw;ov", 22, 34]
+
+for fname in Fnames:
+    print(fname)
+    
