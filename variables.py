@@ -1,3 +1,4 @@
+#################### VARIABLES & TYPES #####################
 fname = "Adam"
 lname = "Davidson"
 full_name = f'My name is {fname} {lname}'
@@ -17,6 +18,7 @@ print(type(bmi))
 #################### LIST #####################
 davidson_family = ["Adam", "Sarah", "Harper"]
 print(davidson_family)
+print(davidson_family[1])
 
 hall = 11.25
 kit = 18.0
