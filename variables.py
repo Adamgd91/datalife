@@ -7,3 +7,5 @@ print(full_name)
 age = 34
 career = "AI/ML Engineer"
 accomplished = False
+
+print(f'I am {age} and I will become an {career}!')
