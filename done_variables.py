@@ -15,3 +15,6 @@ weight = 68.7
 
 bmi = weight / height ** 2
 print(bmi)
+
+print(type(accomplished))
+print(type(bmi))
