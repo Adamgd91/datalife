@@ -1,28 +1,23 @@
 fname = "Adam"
 lname = "Davidson"
-
 full_name = f'My name is {fname} {lname}'
-print(full_name)
-
 age = 34
 career = "AI/ML Engineer"
 accomplished = False
-
-print(f'I am {age} and I will become an {career}!')
-
 height = 1.79
 weight = 68.7
-
 bmi = weight / height ** 2
-print(bmi)
 
+print(full_name)
+print(f'I am {age} and I will become an {career}!')
+print(bmi)
 print(type(accomplished))
 print(type(bmi))
-
 
 #################### LIST #####################
 davidson_family = ["Adam", "Sarah", "Harper"]
 print(davidson_family)
+
 hall = 11.25
 kit = 18.0
 liv = 20.0
