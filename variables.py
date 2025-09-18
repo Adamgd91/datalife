@@ -21,6 +21,7 @@ print(davidson_family)
 print(davidson_family[1])
 new_fam = davidson_family + ["Preston"]
 print(new_fam)
+print(davidson_family)
 
 hall = 11.25
 kit = 18.0
@@ -50,3 +51,6 @@ upstairs = areas[-4:]
 # Print out downstairs and upstairs
 print(downstairs)
 print(upstairs)
+
+x = [[1,2,3,4,5],["DataCamp","Python","Practice","Exercises"],[True, False, 0, 1]]
+print(x[1][:3])
