@@ -15,10 +15,12 @@ print(bmi)
 print(type(accomplished))
 print(type(bmi))
 
-#################### LIST #####################
+#################### LIST ########################
 davidson_family = ["Adam", "Sarah", "Harper"]
 print(davidson_family)
 print(davidson_family[1])
+new_fam = davidson_family + ["Preston"]
+print(new_fam)
 
 hall = 11.25
 kit = 18.0
