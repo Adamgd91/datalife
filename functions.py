@@ -23,7 +23,7 @@ def drinking_age():
 drinking_age()
 num_drinking = len(can_drink)
 num_not_drinking = len(too_young)
-print(can_drink)
+print(sorted(can_drink))
 print(num_drinking)
 
 print(too_young)

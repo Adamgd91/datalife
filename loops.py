@@ -5,7 +5,7 @@ for i in areas:
         
         
 
-scores = [12,9,8,34,22,1,14]
+scores = [12,9,8,34,22,1,14,12]
 failed = []
 for i in scores:
     if i < 12:
@@ -13,3 +13,7 @@ for i in scores:
 
 num_failed = len(failed)
 print(num_failed)
+
+counting_scores = scores.count(12)
+print(f'The number 12 is in this list {counting_scores} times!')
+print(scores.index(34))
