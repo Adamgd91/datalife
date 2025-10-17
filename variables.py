@@ -5,7 +5,7 @@ full_name = f'My name is {fname} {lname}'
 age = 34
 career = "AI/ML Engineer"
 accomplished = False
-height = 1.79
+height = 1.798
 weight = 68.7
 bmi = weight / height ** 2
 
