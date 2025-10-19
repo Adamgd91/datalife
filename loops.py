@@ -3,8 +3,7 @@ for i in areas:
     if i == "bedroom":
         print(areas[5])
         
-        
-
+    
 scores = [12,9,8,34,22,1,14,12]
 failed = []
 for i in scores:
