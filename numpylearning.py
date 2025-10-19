@@ -11,3 +11,16 @@ print(bmi)
 high_bmi = bmi[bmi > 23]
 count_bmi = len(high_bmi)
 print(f'There are {count_bmi} number of high BMIs: {high_bmi}')
+
+#################### 2D ARRAYS ##################
+
+baseball = [[180, 78.4],
+            [215, 102.7],
+            [210, 98.5],
+            [188, 75.2],
+            [177, 88.8]]
+
+np_baseball = np.array(baseball)
+print(np_baseball)
+print(np_baseball.shape)
+print(np_baseball[2,1])

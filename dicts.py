@@ -4,6 +4,7 @@ books = {
     "Fire" : 399
 } 
 
-print(books.items)
-print(books.values)
-print(books.keys)
+print(books.items())
+print(books.values())
+print(books.keys())
+
