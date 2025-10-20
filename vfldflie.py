@@ -27,3 +27,14 @@ count_passed = len(passed_scores)
 count_failed = len(failed_scores)   
 print(f'There are {count_passed} scores that passed : {passed_scores}')
 print(f'There are {count_failed} scores that passed : {failed_scores}')
+
+family = {
+    "Adam" : 34,
+    "Sarah" : 32,
+    "Harper" : 3,
+    "Preston" : 5
+}
+
+for name, age in family.items():
+    if name == "Adam":
+        print(f'Adam is {age} years old')
