@@ -36,5 +36,5 @@ family = {
 }
 
 for name, age in family.items():
-    if name == "Adam":
-        print(f'Adam is {age} years old')
+    if age == 34:
+        print(f'Adam is {name} years old')
